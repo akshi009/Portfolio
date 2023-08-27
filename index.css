@@ -690,3 +690,100 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Basic responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .component-1 {
+      flex-direction: column;
+      align-items: center;
+      left: calc(50% - 50%);
+      /* Adjust other styles as needed */
+    }
+    .hi-im-akshi-jain-parent {
+      align-items: center;
+      /* Adjust other styles as needed */
+    }
+    /* ... more media queries for other elements */
+  
+  
+    .navbar {
+        background-color: #222;
+        color: white;
+        padding: 10px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+  .navbar-item {
+    text-align: center;
+    width: 100%;
+  }
+  .work {
+    top: 1500px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+
+  .work-child,
+  .work-item {
+    position: relative;
+    top: auto;
+    left: auto;
+    border: none;
+    width: 100%;
+    box-sizing: content-box;
+  }
+
+  .work2 {
+    position: relative;
+    left: auto;
+    text-align: center;
+  }
+  .projects {
+    flex-direction: column;
+    gap: 40px; /* Adjust the gap between projects for smaller screens */
+  }
+
+  .project-1,
+  .project-21 {
+    gap: var(--gap-xs); /* Adjust the gap between project components for smaller screens */
+  }
+  .skills-list {
+    left: 50%; /* Center skills list on smaller screens */
+    transform: translateX(-50%);
+    align-items: center;
+  }
+
+  .skills {
+    top: 2050px; /* Adjust the top position for smaller screens */
+    gap: 40px; /* Adjust the gap between skills for smaller screens */
+  }
+
+  .skill1,
+  .skill2,
+  .skill3,
+  .skill4,
+  .skill5,
+  .skill6 {
+    flex-direction: column; /* Arrange skill icon and text side by side */
+    gap: 20px; /* Adjust the gap between skill icon and text */
+    text-align: center; /* Center skill text */
+    align-items: center; /* Center items vertically */
+  }
+  .skills-list-child {
+    padding: 10px; /* Adjust padding for smaller screens */
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+  
